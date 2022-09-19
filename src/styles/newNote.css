@@ -1,0 +1,78 @@
+.newNote {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.newNote-buttonNote button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 10px 16px;
+  margin-bottom: 20px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color: white;
+  color: #fa7070;
+  border: 2px solid #fa7070;
+  cursor: pointer;
+  transition: 0.4s all ease-in;
+}
+
+.newNote-buttonNote button:hover {
+  background-color: #fa7070;
+  color: white;
+}
+
+.newNote-textNote {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  width: 100%;
+  border-top: 3px solid #fa7070;
+  background-color: #fbf2cf;
+  position: relative;
+}
+
+.newNote-textNote input {
+  border-radius: 20px;
+  padding: 10px 20px;
+  border: none;
+  resize: none;
+  background-color: #fbf2cf;
+}
+
+.newNote-textNote input:focus {
+  outline: none;
+}
+
+.newNote-textNote textarea {
+  max-height: 150px;
+  border-radius: 20px;
+  padding: 20px;
+  border: none;
+  resize: none;
+  background-color: #fbf2cf;
+}
+
+.newNote-textNote textarea:focus {
+  outline: none;
+}
+
+.newNote-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.newNote-buttons button {
+  background-color: transparent;
+  color: #fa7070;
+  border: none;
+  cursor: pointer;
+  transition: 0.8s all ease-in-out;
+}
+
+.newNote-buttons button:hover {
+  transform: rotate(360deg);
+}

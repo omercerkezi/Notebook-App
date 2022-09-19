@@ -1,0 +1,25 @@
+.search {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+.search input {
+  margin-left: 5px;
+  width: 100%;
+  font-size: 16px;
+  border: none;
+  background-color: #eee;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search .cancelIcon {
+  color: rgb(71, 67, 67);
+  cursor: pointer;
+}

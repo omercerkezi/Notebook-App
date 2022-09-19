@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.app-container h1 {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.app-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-container .allNotes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+
+.selected-note {
+  width: 50%;
+  margin-right: 5%;
+  padding: 0 2% 2% 2%;
+  border-radius: 20px;
+  color: #fbf2cf;
+  background-color: #fa7070;
+  letter-spacing: 1.6px;
+  line-height: 1.5;
+}
+
+.selected-note .selectedNote-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.selected-note h4 {
+  font-weight: 500;
+}
+
+.selected-note span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+p {
+  margin: 2px;
+}

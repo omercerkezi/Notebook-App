@@ -1,0 +1,65 @@
+.note {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px;
+  background-color: #fbf2cf;
+  border-top: 3px solid #fa7070;
+  white-space: pre-wrap;
+}
+
+.note-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note h2 {
+  margin: 0 0 10px 0;
+  padding: 0px 10px;
+  color: #fa7070;
+  cursor: pointer;
+}
+
+.note h2:hover {
+  color: #ff4242;
+  text-decoration: 1px underline;
+}
+
+.note .delete-button {
+  padding: 10px 10px;
+  align-self: flex-end;
+  background-color: transparent;
+  color: #fa7070;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+}
+
+.note .delete-button:hover {
+  transform: scale(1.2);
+}
+
+.note .deleteIcon {
+  font-size: 180;
+}
+
+.note .note-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.note .note-body p {
+  padding: 10px;
+  white-space: nowrap;
+  width: 70%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.note .note-body h4 {
+  color: #fa7070;
+  font-weight: 700;
+}
