@@ -3,17 +3,20 @@
   font-family: "Roboto", sans-serif;
 }
 
-.app-container h1 {
-  text-align: left;
-  padding-left: 10px;
+.homepage-container h1 {
+  width: 200px;
+  text-align: center;
+  color: white;
+  background-color: #fa7070;
+  opacity: 0.8;
 }
 
-.app-body {
+.homepage-body {
   display: flex;
   justify-content: space-between;
 }
 
-.app-container .allNotes {
+.homepage-container .allNotes {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -48,4 +51,27 @@
 
 p {
   margin: 2px;
+}
+
+@media (max-width: 700px) {
+  .homepage-container h1 {
+    margin: 0px auto 20px auto;
+  }
+
+  .homepage-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .homepage-container .allNotes {
+    gap: 20px;
+    width: 120%;
+  }
+
+  .selected-note {
+    width: 100%;
+    order: -1;
+  }
 }

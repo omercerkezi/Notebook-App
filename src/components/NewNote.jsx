@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import { React, useState } from "react";
 import "../styles/newNote.css";
 import NoteAddIcon from "@mui/icons-material/NoteAdd";
 import NoteAltIcon from "@mui/icons-material/NoteAlt";
